@@ -12,7 +12,7 @@ function App() {
   const [input, setInput] =  useState('');
 
   const agregarInput = val => {
-    return input === 0 && val === 0 ?
+    return input == 0 && val == 0 ?
       setInput(0) :
       setInput(input + val);
   };
