@@ -1,0 +1,28 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1; /* para que el botón tenga un ancho y altura igual */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: #fafccb;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: ease-in-out 0.3s; /* evita que se seleccione el valor del botón*/
+}
+
+.boton-contenedor:hover {
+    background-color: #3b4a6b;
+}
+
+
+.operador {
+    color: #3f4e6f;
+}
+
+.operador:hover {
+    color: #fafccb;
+}

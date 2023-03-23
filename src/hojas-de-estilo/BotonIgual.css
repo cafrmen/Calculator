@@ -1,0 +1,22 @@
+.boton-igual {
+    height: 83px;
+    font-weight: bold;
+    font-size: 38px;
+    display: flex;
+    flex-grow: 1.85;  /* para que se ajuste a el espacio */
+    background-color: #3b4a6b;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fafccb;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: ease-in-out 0.3s;
+}
+
+.boton-igual:hover {
+
+    box-shadow: inset 1px 1px 2px #fafccb;
+    background-color: #1b1b32;
+}
